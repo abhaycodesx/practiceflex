@@ -1,0 +1,284 @@
+.members-container{
+    /*text-align: center;*/
+    line-height: 2.5rem;
+    /*margin-top: 3rem;*/
+    
+}
+
+.members-heading{
+    color: lightgreen;
+    width: 15rem;
+    margin-left: 3rem;
+}
+
+.members-heading:hover{
+    color: chartreuse;
+    background-color: aqua;
+}
+
+@media(min-width:24.125rem){
+    .members-heading{
+        margin-left: 30rem;
+        width: 25rem;
+    }
+}
+
+
+
+@media(min-width:24.125rem){
+    .members-para{
+        margin-left: 30rem;
+    }
+}
+
+
+
+
+
+
+.members-para{
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.managing-container{
+    display: flexbox;
+    margin-top: 3rem;
+    /*margin-left: 15rem;*/
+}
+
+@media(min-width:24.125rem){
+    .managing-container{
+        display: inline-flex;
+        margin-left: 4rem;
+    }
+}
+
+.managing-container-div-one{
+    box-shadow: 4px 4px 4px 4px blue;
+}
+
+.managing-container-one{
+    border: 2px solid gray;
+    background-image: url(./bat-man.jpg);
+    background-size: cover;
+    width: 15rem;
+    padding-top: 7rem;
+    height: 5rem;
+    margin-left: 3rem;
+    margin-right: 1rem;
+}
+
+.managing-container-para-one{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 4rem;
+}
+
+.managing-container-para-one-one{
+    font-weight: bold;
+    margin-left: 4rem;
+}
+
+.managing-container-div-two{
+    box-shadow: 4px 4px 4px 4px blue;
+}
+
+@media(min-width:24.125rem){
+    .managing-container-div-two{
+        margin-left: 1.5rem;
+    }
+}
+
+.managing-container-two{
+    background-image: url("./iron-man.jpg");
+    width: 15rem;
+    height: 5rem;
+    border: 2px solid gray;
+    background-size: cover;
+    padding-top: 7rem;
+    margin-left: 3rem;
+    margin-right: 1rem;
+}
+
+/*@media(min-width:24.125rem){
+    .managing-container-two{
+        background-image: url("./iron-man.jpg");
+        width: 10rem;
+        height: 3rem;
+        margin-right: 2rem;
+    } 
+}*/
+
+.managing-container-para-two{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 4rem;
+}
+
+.managing-container-para-two-two{
+    font-weight: bold;
+    margin-left: 4rem;
+}
+
+.managing-container-three{
+    background-image: url("./spider-man.jpg");
+    width: 15rem;
+    height: 5rem;
+    border: 2px solid gray;
+    padding-top: 7rem;
+    background-size: cover;
+    margin-left: 3rem;
+    margin-right: 1rem;
+}
+
+.managing-container-div-three{
+    box-shadow: 4px 4px 4px 4px blue;
+}
+
+@media(min-width:24.125rem){
+    .managing-container-div-three{
+        margin-left: 1.5rem;
+    }
+}
+
+.managing-container-four{
+    background-image: url("./super-man.png");
+    width: 15rem;
+    height: 5rem;
+    padding-top: 7rem;
+    margin-left: 3rem;
+    margin-right: 1rem;
+    border: 2px solid gray;
+}
+
+.managing-container-div-four{
+    box-shadow: 4px 4px 4px 4px blue;
+}
+
+@media(min-width:24.125rem){
+    .managing-container-div-four{
+        margin-left: 1.5rem;
+    }
+}
+
+.project-div-container{
+    display: flexbox;
+    margin-top: 6rem;
+    background-color: yellow;
+    padding-left: 7rem;
+}
+
+@media(min-width:24.125rem){
+    .project-div-container{
+        display: inline-flex;
+        width: 100vw;
+        padding-left: 7rem;
+    }
+}
+
+@media(min-width:24.125rem){
+    .numbers-of-project-div-con-tainer{
+        margin-left: 6rem;
+    }
+}
+
+.prject-div-heading{
+    font-size: 2rem;
+}
+
+.project-div-para{
+    font-weight: bold;
+}
+
+/*.features-container{
+    font-size: 2rem;
+}*/
+
+@media(min-width:24.125rem){
+    .features-container{
+        text-align: center;
+        margin-left: 2rem;
+        
+    }
+}
+
+.features-heading{
+    color:green;
+    font-size: 2rem;
+}
+
+.features-heading:hover{
+    background-color: aqua;
+    color: chartreuse;
+}
+
+.features-para{
+    font-weight: bold;
+}
+
+.footer-container{
+    display: flexbox;
+}
+
+.footer-one{
+    margin-left: 2rem;
+}
+
+.footer-two{
+    margin-left: 2rem;
+}
+
+.footer-three{
+    margin-left: 2rem;
+}
+
+@media(min-width:24.125rem){
+    .footer-container{
+        display: inline-flex;
+        margin-left: 5rem;
+    }
+    .footer-two{
+        margin-left: 15rem;
+    }
+
+    .footer-three{
+        margin-left: 15rem;
+    }
+}
+
+.footer-image-one{
+    border: 2px solid grey;
+    background-image: url("./buildings.png");
+    width: 6rem;
+    height: 4rem;
+    background-size: cover;
+    margin-left: 2rem;
+}
+
+.same-buildings{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.same-para-footer{
+    font-weight: bold;
+}
+
+.footer-image-two{
+    border: 2px solid grey;
+    background-image: url("./painting.jpg");
+    width: 6rem;
+    height: 4rem;
+    background-size: cover;
+    margin-left: 2rem;
+}
+
+.footer-image-three{
+    border: 2px solid grey;
+    background-image: url("./repairing.jpg");
+    width: 6rem;
+    height: 4rem;
+    background-size: cover;
+    margin-left: 2rem;
+}
